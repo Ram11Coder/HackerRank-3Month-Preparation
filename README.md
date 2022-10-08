@@ -8,3 +8,6 @@
 - Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-divisible-sum-pairs/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/DivisibleSumPairs.java)
 - Sparse Arrays | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/SparseArrays.java)
 - Camel Case 4 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/CamelCase4.java)
+
+### Week-2
+- Lonely Integer | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/LonelyInteger.java)
