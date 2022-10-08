@@ -7,3 +7,4 @@
 - Breaking the Records | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-breaking-best-and-worst-records/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/BreakingtheRecords.java)
 - Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-divisible-sum-pairs/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/DivisibleSumPairs.java)
 - Sparse Arrays | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/SparseArrays.java)
+- Camel Case 4 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week1/CamelCase4.java)
