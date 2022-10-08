@@ -20,9 +20,15 @@ public class LonelyInteger {
      * The function is expected to return an INTEGER.
      * The function accepts INTEGER_ARRAY a as parameter.
      */
-//My solution
+
+    /**
+     * Using HashMap
+     *
+     * @param a
+     * @return
+     */
     public static int lonelyinteger_UsingHashMap(List<Integer> a) {
-        if(a.size()==1)
+        if (a.size() == 1)
             return a.get(0);
         Map<Integer, Integer> map = new HashMap<>();
         for (int i : a)
@@ -36,6 +42,46 @@ public class LonelyInteger {
         return result;
     }
 
+    /**
+     * All elements except one element occurs twice,
+     * so using hash set to iterate it
+     * 1. If element not present add it to set
+     * 2. If present , remove it
+     * 3. Finally only one element will be left, that is the result
+     *
+     * @param a
+     * @return
+     */
+    public static int lonelyinteger_UsingHashSet(List<Integer> a) {
+        if (a.size() == 1)
+            return a.get(0);
+        Set<Integer> set = new HashSet<>();
+        for (int i : a)
+            if (set.contains(i))
+                set.remove(i);
+            else
+                set.add(i);
+
+        return set.iterator().next();
+    }
+
+    /**
+     * Using XOR
+     * same bit(1,1 or 0,0) return 0
+     * Opposite bit(1,0 or 1,0) return 1
+     *
+     * @param a
+     * @return
+     */
+    public static int lonelyinteger_UsingXOR(List<Integer> a) {
+        if (a.size() == 1)
+            return a.get(0);
+        int res = 0;
+        for (int i : a)
+            res ^= i;
+
+        return res;
+    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -49,6 +95,11 @@ public class LonelyInteger {
 
         int result = LonelyInteger.lonelyinteger_UsingHashMap(a);
         System.out.println(result);
+        result = LonelyInteger.lonelyinteger_UsingHashSet(a);
+        System.out.println(result);
+        result = LonelyInteger.lonelyinteger_UsingXOR(a);
+        System.out.println(result);
+
         //  bufferedWriter.write(String.valueOf(result));
         //   bufferedWriter.newLine();
 
