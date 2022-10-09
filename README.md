@@ -11,3 +11,4 @@
 
 ### Week-2
 - Lonely Integer | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/LonelyInteger.java)
+- Grading Students | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/GradingStudents.java)
