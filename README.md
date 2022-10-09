@@ -17,3 +17,5 @@
 - Counting Sort 1 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-countingsort1/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/CountingSort1.java)
 - Counting Valleys | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-counting-valleys/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/CountingValleys.java)
 - Pangrams | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-pangrams/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/Pangrams.java)
+- Mars Exploration | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/MarsExploration.java)
+
