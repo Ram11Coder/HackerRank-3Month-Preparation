@@ -14,3 +14,4 @@
 - Grading Students | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/GradingStudents.java)
 - Flipping bits | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-flipping-bits/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/Flippingbits.java)
 - Diagonal Difference | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-diagonal-difference/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/DiagonalDifference.java)
+- Counting Sort 1 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-countingsort1/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/CountingSort1.java)
