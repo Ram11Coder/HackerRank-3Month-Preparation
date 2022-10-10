@@ -19,3 +19,5 @@
 - Pangrams | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-pangrams/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/Pangrams.java)
 - Mars Exploration | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week2/MarsExploration.java)
 
+### Week-3
+- Permuting Two Arrays | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-two-arrays/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/PermutingTwoArrays.java)
