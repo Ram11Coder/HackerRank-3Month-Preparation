@@ -22,4 +22,4 @@
 ### Week-3
 - Permuting Two Arrays | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-two-arrays/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/PermutingTwoArrays.java)
 - Subarray Division 2 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-the-birthday-bar/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/SubarrayDivision2.java)
-
+-XOR Strings 3 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-strings-xor/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/XORStrings3.java)
