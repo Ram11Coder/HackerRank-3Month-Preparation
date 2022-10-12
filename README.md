@@ -24,4 +24,4 @@
 - Subarray Division 2 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-the-birthday-bar/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/SubarrayDivision2.java)
 - XOR Strings 3 | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-strings-xor/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/XORStrings3.java)
 - Sales By Match | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/SalesbyMatch.java)
--  | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/ZigZagSequence.java)
+- Zig Zag Sequence | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/ZigZagSequence.java)
