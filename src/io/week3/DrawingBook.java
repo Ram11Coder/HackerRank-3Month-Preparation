@@ -24,8 +24,8 @@ public class DrawingBook {
      * The function accepts following parameters:
      *  1. INTEGER n
      *  2. INTEGER p
-     *My solution
-     /
+     * My solution
+     */
 
     public static int pageCount(int n, int p) {
         int start = 1, end = n, rightCount = 0, leftCount = 0;
