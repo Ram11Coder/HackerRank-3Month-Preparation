@@ -57,6 +57,16 @@ public class DrawingBook {
         return Math.min(rightCount, leftCount);
     }
 
+    /**
+     * Don't need to consider whether the page is odd or even
+     * @param n
+     * @param p
+     * @return
+     */
+    public static int pageCount_simple(int n, int p) {
+        return Math.min(p / 2, n / 2 - p / 2);
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -66,6 +76,8 @@ public class DrawingBook {
         int p = Integer.parseInt(bufferedReader.readLine().trim());
 
         int result = DrawingBook.pageCount(n, p);
+        System.out.println(result);
+        result = DrawingBook.pageCount_simple(n, p);
         System.out.println(result);
         // bufferedWriter.write(String.valueOf(result));
         // bufferedWriter.newLine();
