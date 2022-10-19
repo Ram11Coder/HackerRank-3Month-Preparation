@@ -21,10 +21,12 @@ public class MaximumPerimeterTriangle {
 
         List<Integer> newList = new ArrayList<>();
         long currentMax = Integer.MIN_VALUE;
+        // Pre check conditions
         if (sticks.size() < 3) {
             newList.add(-1);
             return newList;
         }
+        //Sort the array so we can capture maximum perimeter triangle with sticks.size() - 2 iteration
         Collections.sort(sticks);
 
         for (int i = 0; i < sticks.size() - 2; i++) {
