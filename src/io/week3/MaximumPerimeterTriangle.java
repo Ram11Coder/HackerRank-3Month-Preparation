@@ -2,13 +2,7 @@ package io.week3;
 
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
 import java.util.stream.*;
 
 import static java.util.stream.Collectors.joining;
@@ -24,43 +18,34 @@ public class MaximumPerimeterTriangle {
      */
 
     public static List<Integer> maximumPerimeterTriangle(List<Integer> sticks) {
-        int n = sticks.size(), max = Integer.MIN_VALUE;
-        List<Integer> maxPerimeter = new ArrayList<>();
+
+        List<Integer> newList = new ArrayList<>();
+        long currentMax = Integer.MIN_VALUE;
         if (sticks.size() < 3) {
-            return Arrays.asList(-1);
+            newList.add(-1);
+            return newList;
         }
         Collections.sort(sticks);
-        for (int i = 0; i < n - 2; i++) {
-            for (int j = i + 1; j < n - 1; j++) {
-                for (int k = j + 1; k < n; k++) {
-                    if (isTriangle(sticks.get(i), sticks.get(j), sticks.get(k)) && max <= (sticks.get(i) + sticks.get(j) + sticks.get(k))) {
-                      //  if (max == (i + j + k))
-                            maxPerimeter = longestMinumumSide(maxPerimeter, Arrays.asList(sticks.get(i), sticks.get(j), sticks.get(k)));
-                      //  else
-                      //      maxPerimeter = Arrays.asList(i, j, k);
-                        max = sticks.get(i)+sticks.get(j)+ sticks.get(k);
-                    }
+
+        for (int i = 0; i < sticks.size() - 2; i++) {
+            long tempMax = 0;
+            if (sticks.get(i) + sticks.get(i + 1) > sticks.get(i + 2) && sticks.get(i + 1) + sticks.get(i + 2) > sticks.get(i) && sticks.get(i + 2) + sticks.get(i) > sticks.get(i + 1)) {
+                tempMax = sticks.get(i) + sticks.get(i + 1) + sticks.get(i + 2);
+                if (tempMax > currentMax) {
+                    currentMax = tempMax;
+                    newList.clear();
+                    newList.add(sticks.get(i));
+                    newList.add(sticks.get(i + 1));
+                    newList.add(sticks.get(i + 2));
                 }
             }
         }
-        return maxPerimeter;
+
+        if (newList.isEmpty())
+            newList.add(-1);
+        return newList;
     }
 
-    private static List<Integer> longestMinumumSide(List<Integer> preMaxPerimeter, List<Integer> newMaxPerimeter) {
-        if (preMaxPerimeter.size() == 0)
-            return newMaxPerimeter;
-        return (getMin(preMaxPerimeter) < getMin(newMaxPerimeter)) ? preMaxPerimeter : newMaxPerimeter;
-    }
-
-    private static int getMin(List<Integer> list) {
-        return Math.min(Math.min(list.get(0), list.get(1)), Math.min(list.get(1), list.get(2)));
-    }
-
-    private static boolean isTriangle(int i, int j, int k) {
-        if (i + j <= k || i + k <= j || j + k <= i)
-            return false;
-        return true;
-    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
