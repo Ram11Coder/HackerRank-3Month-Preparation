@@ -67,6 +67,20 @@ public class LeftRotation {
         }
     }
 
+
+    public static List<Integer> rotateLeft_queue(int d, List<Integer> arr) {
+        Queue<Integer> queue = new ArrayDeque<>(arr);
+        for (int i = 0; i < d; i++)
+            queue.add(queue.remove());
+
+        return new ArrayList<>(queue);
+    }
+
+    public static List<Integer> rotateLeft_Stream(int d, List<Integer> arr) {
+        return Stream.concat(arr.subList(d, arr.size()).stream(), arr.subList(0, d).stream())
+                .collect(Collectors.toList());
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //  BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -81,7 +95,7 @@ public class LeftRotation {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> result = LeftRotation.rotateLeft_swap(d, arr);
+        List<Integer> result = LeftRotation.rotateLeft_Stream(d, arr);
         System.out.println(result);
         /*bufferedWriter.write(
                 result.stream()
