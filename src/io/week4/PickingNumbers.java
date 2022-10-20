@@ -23,30 +23,57 @@ public class PickingNumbers {
      * The function accepts INTEGER_ARRAY a as parameter.
      */
 
+    /**
+     * 7
+     * 1 2 2 2 2 3 3
+     * 5
+     * in the above case should return 6 not 5
+     * proposed approach : pickingNumbers_hash method
+     * <p>
+     * Time complexity : O(n)
+     * Space complexity : O(1)
+     *
+     * @param a
+     * @return
+     */
     public static int pickingNumbers(List<Integer> a) {
-        if (a.size() <= 2)
-            return a.get(0);
         Collections.sort(a);
-        int count = 1, max = 0, maxIndexValue = 0, value = a.get(0);
-        for (int i = 1; i < a.size() - 1; i++) {
+        int count = 1, max = 0, value = a.get(0);
+        for (int i = 1; i < a.size(); i++) {
             if (Math.abs(a.get(i) - value) <= 1)
                 count++;
-            else if (Math.abs(a.get(i) - value) > 1) {
+            else if (Math.abs(a.get(i) - value) >= 2) {
                 value = a.get(i);
                 if (max < count) {
-                    count = max;
-                    maxIndexValue = a.get(i);
+                    max = count;
                 }
                 count = 1;
             }
         }
+        return (max < count) ? count : max;
+    }
 
-        if (max < count) {
-            count = max;
-            maxIndexValue = a.get(a.size() - 1);
+    /**
+     * Time complexity : O(n)
+     * Space complexity : O(1)
+     *
+     * @param a
+     * @return
+     */
+    public static int pickingNumbers_hash(List<Integer> a) {
+        int freq[] = new int[101];
+
+        for (int i : a)
+            freq[i]++;
+
+        int max = 0;
+        for (int i = 1; i < freq.length - 1; i++) {
+            int val = freq[i] + freq[i + 1];
+            if (val > max) {
+                max = val;
+            }
         }
-
-        return maxIndexValue;
+        return max;
     }
 
     public static void main(String[] args) throws IOException {
@@ -59,7 +86,7 @@ public class PickingNumbers {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        int result = PickingNumbers.pickingNumbers(a);
+        int result = PickingNumbers.pickingNumbers_hash(a);
         System.out.println(result);
         //  bufferedWriter.write(String.valueOf(result));
         //  bufferedWriter.newLine();
