@@ -28,3 +28,6 @@
 - Drawing Book| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-drawing-book/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/DrawingBook.java)
 - MaximumPerimeter Triangle| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-maximum-perimeter-triangle/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/MaximumPerimeterTriangle.java)
 - Migratory Birds| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-migratory-birds/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week3/MigratoryBirds.java)
+
+### Week-4
+- Picking Numbers | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-picking-numbers/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/PickingNumbers.java)
