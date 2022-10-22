@@ -32,3 +32,5 @@
 ### Week-4
 - Picking Numbers | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-picking-numbers/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/PickingNumbers.java)
 - Left Rotation | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-array-left-rotation/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/LeftRotation.java)
+- NumberLine Jumps | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-kangaroo/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/NumberLineJumps.java)
+- closest Numbers | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-closest-numbers/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/closestNumbers.java)
