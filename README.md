@@ -36,3 +36,6 @@
 - closest Numbers | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-closest-numbers/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/closestNumbers.java)
 - Minimum Absolute Difference In An Array | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/MinimumAbsoluteDifferenceInAnArray.java)
 -  CaesarCipher| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-caesar-cipher-1/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week4/CaesarCipher.java)
+
+### Week-5
+- Max Min | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-angry-children/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/MaxMin.java)
