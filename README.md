@@ -39,3 +39,4 @@
 
 ### Week-5
 - Max Min | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-angry-children/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/MaxMin.java)
+- Strong Password | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-strong-password/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/StrongPassword.java)
