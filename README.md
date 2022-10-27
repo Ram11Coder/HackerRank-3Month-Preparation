@@ -41,3 +41,5 @@
 - Max Min | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-angry-children/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/MaxMin.java)
 - Strong Password | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-strong-password/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/StrongPassword.java)
 - Dynamic Array | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-dynamic-array/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/DynamicArray.java)
+- Smart Number2| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-smart-number/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/SmartNumber2.java)
+
