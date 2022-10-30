@@ -24,8 +24,27 @@ public class GridChallenge {
      */
 
     public static String gridChallenge(List<String> grid) {
-        return "";
 
+        for (int i = 0; i < grid.size(); i++)
+            grid.set(i, sort(grid.get(i)));
+        int n = grid.get(0).length();
+        for (int i = 0; i < n; i++)
+            if (!isSorted(grid, i))
+                return "NO";
+        return "YES";
+    }
+
+    private static boolean isSorted(List<String> grid, int j) {
+        for (int i = 0; i < grid.size() - 1; i++)
+            if (grid.get(i).charAt(j) > grid.get(i + 1).charAt(j))
+                return false;
+        return true;
+    }
+
+    private static String sort(String str) {
+        char[] charArr = str.toCharArray();
+        Arrays.sort(charArr);
+        return new String(charArr);
     }
 
     public static void main(String[] args) throws IOException {
@@ -48,7 +67,7 @@ public class GridChallenge {
                         .collect(toList());
 
                 String result = GridChallenge.gridChallenge(grid);
-
+                System.out.println(result);
                 //    bufferedWriter.write(result);
                 //     bufferedWriter.newLine();
             } catch (IOException ex) {
