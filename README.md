@@ -44,3 +44,6 @@
 - Smart Number2| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-smart-number/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/SmartNumber2.java)
 - Missing Numbers| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-missing-numbers/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/MissingNumbers.java)
 - Grid Challenge| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-grid-challenge/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/GridChallenge.java)
+- Sansa And XOR| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-sansa-and-xor/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/SansaAndXOR.java)
+
+
