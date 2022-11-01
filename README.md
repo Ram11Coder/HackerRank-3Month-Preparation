@@ -49,3 +49,7 @@
 - Sansa And XOR| [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-sansa-and-xor/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week5/SansaAndXOR.java)
 
 
+### Week-6
+- Prime Dates | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-prime-date/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week6/PrimeDates.java)
+- Sherlock And Array | [Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-array/problem) | [Solution](https://github.com/Ram11Coder/HackerRank-3Month-Preparation/blob/main/src/io/week6/SherlockAndArray.java)
+
