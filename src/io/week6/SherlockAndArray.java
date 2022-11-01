@@ -25,8 +25,17 @@ public class SherlockAndArray {
      */
 
     public static String balancedSums(List<Integer> arr) {
-        return "";
-
+        int sum = 0;
+        for (int i : arr)
+            sum += i;
+        int right = 0;
+        for (int i : arr) {
+            int left = sum - right - i;
+            if (right == left)
+                return "YES";
+            right += i;
+        }
+        return "NO";
     }
 
     public static void main(String[] args) throws IOException {
@@ -44,7 +53,7 @@ public class SherlockAndArray {
                         .collect(toList());
 
                 String result = SherlockAndArray.balancedSums(arr);
-
+                System.out.println(result);
                 //   bufferedWriter.write(result);
                 //      bufferedWriter.newLine();
             } catch (IOException ex) {
