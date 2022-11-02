@@ -49,21 +49,18 @@ public class RecursiveDigitSum {
 
     }
 
-
+    //Minimised the code size
     public static int superDigit_simplified(String n, int k) {
-        if (n.length() == 1)
-            return Integer.valueOf(n);
-
-        int sum = calculateSum(n);
+        long sum = calculateSum(n);
         sum *= k;
         while (sum > 9)
             sum = calculateSum(String.valueOf(sum));
 
-        return sum;
+        return (int) sum;
     }
 
-    private static int calculateSum(String n) {
-        int sum = 0;
+    private static long calculateSum(String n) {
+        long sum = 0;
         for (char i : n.toCharArray())
             sum += Character.getNumericValue(i);
         return sum;
