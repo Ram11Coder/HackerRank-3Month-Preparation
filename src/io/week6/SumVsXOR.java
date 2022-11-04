@@ -23,7 +23,6 @@ public class SumVsXOR {
      * The function is expected to return a LONG_INTEGER.
      * The function accepts LONG_INTEGER n as parameter.
      */
-
     public static long sumXor_optimised(long n) {
         int c=0;
         while (n > 0) {
