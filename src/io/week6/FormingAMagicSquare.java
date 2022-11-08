@@ -31,7 +31,7 @@ public class FormingAMagicSquare {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         List<List<Integer>> s = new ArrayList<>();
 
@@ -49,10 +49,10 @@ public class FormingAMagicSquare {
 
         int result = FormingAMagicSquare.formingMagicSquare(s);
         System.out.println(result);
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
+        //   bufferedWriter.write(String.valueOf(result));
+        //  bufferedWriter.newLine();
 
         bufferedReader.close();
-        bufferedWriter.close();
+        //bufferedWriter.close();
     }
 }

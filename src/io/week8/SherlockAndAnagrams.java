@@ -1,3 +1,4 @@
+/*
 package io.week8;
 
 import java.io.*;
@@ -15,12 +16,14 @@ import static java.util.stream.Collectors.toList;
 
 class SherlockAndAnagrams {
 
-    /*
+    */
+/*
      * Complete the 'sherlockAndAnagrams' function below.
      *
      * The function is expected to return an INTEGER.
      * The function accepts STRING s as parameter.
-     */
+     *//*
+
 
     public static int sherlockAndAnagrams(String s) {
         return 0;
@@ -53,3 +56,4 @@ public class Solution {
         bufferedWriter.close();
     }
 }
+*/

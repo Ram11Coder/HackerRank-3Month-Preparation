@@ -1,3 +1,4 @@
+/*
 package io.week7;
 
 
@@ -57,14 +58,17 @@ public class Solution {
 
     class ReverseAlinkedlist {
 
-        /*
+        */
+/*
          * Complete the 'reverse' function below.
          *
          * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
          * The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.
-         */
+         *//*
 
-        /*
+
+        */
+/*
          * For your reference:
          *
          * SinglyLinkedListNode {
@@ -72,7 +76,8 @@ public class Solution {
          *     SinglyLinkedListNode next;
          * }
          *
-         */
+         *//*
+
 
         public static SinglyLinkedListNode reverse(SinglyLinkedListNode llist) {
           return  null;
@@ -112,3 +117,4 @@ public class Solution {
         scanner.close();
     }
 }
+*/

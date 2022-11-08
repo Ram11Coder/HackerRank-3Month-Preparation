@@ -1,3 +1,4 @@
+/*
 package io.week8;
 
 
@@ -16,14 +17,16 @@ import static java.util.stream.Collectors.toList;
 
 class IceCreamParlor {
 
-    /*
+    */
+/*
      * Complete the 'icecreamParlor' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts following parameters:
      *  1. INTEGER m
      *  2. INTEGER_ARRAY arr
-     */
+     *//*
+
 
     public static List<Integer> icecreamParlor(int m, List<Integer> arr) {
         return new ArrayList<>();
@@ -66,3 +69,4 @@ public class Solution {
         bufferedWriter.close();
     }
 }
+*/

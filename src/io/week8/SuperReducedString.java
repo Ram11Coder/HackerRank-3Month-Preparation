@@ -1,3 +1,4 @@
+/*
 package io.week8;
 
 
@@ -16,12 +17,14 @@ import static java.util.stream.Collectors.toList;
 
 class SuperReducedString {
 
-    /*
+    */
+/*
      * Complete the 'superReducedString' function below.
      *
      * The function is expected to return a STRING.
      * The function accepts STRING s as parameter.
-     */
+     *//*
+
 
     public static String superReducedString(String s) {
         return "";
@@ -46,3 +49,4 @@ public class Solution {
         bufferedWriter.close();
     }
 }
+*/

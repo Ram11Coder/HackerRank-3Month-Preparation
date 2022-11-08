@@ -1,3 +1,4 @@
+/*
 package io.week8;
 
 
@@ -60,16 +61,19 @@ public class InsertingANode {
 
     class Result {
 
-        /*
+        */
+/*
          * Complete the 'sortedInsert' function below.
          *
          * The function is expected to return an INTEGER_DOUBLY_LINKED_LIST.
          * The function accepts following parameters:
          *  1. INTEGER_DOUBLY_LINKED_LIST llist
          *  2. INTEGER data
-         */
+         *//*
 
-        /*
+
+        */
+/*
          * For your reference:
          *
          * DoublyLinkedListNode {
@@ -78,7 +82,8 @@ public class InsertingANode {
          *     DoublyLinkedListNode prev;
          * }
          *
-         */
+         *//*
+
 
         public static DoublyLinkedListNode sortedInsert(DoublyLinkedListNode llist, int data) {
             return null;
@@ -122,3 +127,4 @@ public class InsertingANode {
         scanner.close();
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package io.week7;
 
 
@@ -57,7 +58,8 @@ public class Solution {
 
     class InsertAnode {
 
-        /*
+        */
+/*
          * Complete the 'insertNodeAtPosition' function below.
          *
          * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
@@ -65,9 +67,11 @@ public class Solution {
          *  1. INTEGER_SINGLY_LINKED_LIST llist
          *  2. INTEGER data
          *  3. INTEGER position
-         */
+         *//*
 
-        /*
+
+        */
+/*
          * For your reference:
          *
          * SinglyLinkedListNode {
@@ -75,7 +79,8 @@ public class Solution {
          *     SinglyLinkedListNode next;
          * }
          *
-         */
+         *//*
+
 
         public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode llist, int data, int position) {
             return null;
@@ -117,3 +122,4 @@ public class Solution {
         scanner.close();
     }
 }
+*/
